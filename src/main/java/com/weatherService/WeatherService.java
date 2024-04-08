@@ -31,6 +31,7 @@ public class WeatherService {
     public String getHourlyForecastByLocationName(String cityName) {
         HttpHeaders headers = new HttpHeaders();
         HttpEntity<String> entity = new HttpEntity<>(headers);
+        
         ResponseEntity<String> response = restTemplate.exchange(
         		"https://api.openweathermap.org/data/2.5/forecast?q="+cityName+"&appid=429bcdfc2cd3d075f0f369a6379f8906",
                 HttpMethod.GET, entity, String.class);
