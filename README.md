@@ -67,10 +67,10 @@ This project integrates with the Weather API from Rapid API to provide weather f
         <li>Install dependencies: <code>mvn clean install</code></li>
         <li> Need Chenge Application property </li>
         <li> Only change database credencial like this </li>
-        <p> spring.datasource.url=jdbc:mysql://localhost:3306/user
-spring.datasource.username=root
-spring.datasource.password=root
-spring.jpa.hibernate.ddl-auto=update</p>
+        <p> spring.datasource.url=jdbc:mysql://localhost:3306/user</p>
+<p>spring.datasource.username=root</p>
+<p>spring.datasource.password=root</p>
+<p>spring.jpa.hibernate.ddl-auto=update</p>
         <li>Run the application: <code>mvn spring-boot:run</code></li>
         <li>Access the API endpoints using the provided URLs.</li>
     </ol>
